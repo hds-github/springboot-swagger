@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SweggerController {
+public class SwaggerController {
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/api/javatech")
 	public String sayHelloSwegger() {
-		return "Welcome To Spring Swegger  World";
+		return "Welcome To Spring Swagger  World";
 	}
 	@RequestMapping(method = RequestMethod.GET, value = "/api/javatech/getIndianMetroCities")
 	public String getIndianMetrocities() {
